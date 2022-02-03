@@ -18,7 +18,7 @@ const Couple = (props) => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>Petala</h3>
-                                            <p>Hi I am Nancy Elizabeth. I am going to introduce myself.I am a professional graphic designer professional graphic designer going to introduce myself.I am going to introduce myself.</p>
+                                            <p>Hi</p>
                                         </div>
                                     </div>
                                 </div>
@@ -31,7 +31,7 @@ const Couple = (props) => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>Manoel</h3>
-                                            <p>Hi I am Nancy Elizabeth. I am going to introduce myself.I am a professional graphic designer professional graphic designer going to introduce myself.I am going to introduce myself.</p>
+                                            <p>Hi</p>
                                         </div>
                                     </div>
                                 </div>
