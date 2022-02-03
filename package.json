@@ -15,7 +15,7 @@
     "react-owl-carousel": "^2.3.1",
     "react-particles-js": "^2.7.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.1.1",
+    "react-scripts": "^5.0.0",
     "react-slick": "^0.25.2",
     "react-sticky-header": "^0.2.0",
     "reactjs-countdown": "0.0.8",
