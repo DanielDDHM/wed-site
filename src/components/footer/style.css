@@ -12,7 +12,7 @@
   
   .site-footer .text{
     text-align: center;
-    background: rgba(178,201,211,.8);
+    background: #edcd46;
     width: 310px;
     height: 310px;
     display: flex;
@@ -30,7 +30,7 @@
     width: 104%;
     height: 104%;
     content: "";
-    border: 1px solid rgba(255,255,255,.3);
+    border: 1px solid #edcd46;
     border-radius: 50%;
 }
   @media (max-width: 1199px) {
