@@ -9,8 +9,7 @@ import People from '../../components/people';
 import Location from '../../components/location';
 import Gallery from '../../components/gallery';
 import Rsvp from '../../components/rsvp';
-import Getting from '../../components/getting';
-import Gift from '../../components/gift';
+import Rule from '../../components/Rules';
 import Navbar from '../../components/Navbar'
 import Saveday from '../../components/countdown'
 import Footer from '../../components/footer'
@@ -32,8 +31,7 @@ const Homepage = () => {
            <Location/>
            <Gallery/>
            <Rsvp/>
-           <Getting/>
-           <Gift/>
+           <Rule/>
            <Footer />
        </div>
     )

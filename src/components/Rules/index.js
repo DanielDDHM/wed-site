@@ -1,12 +1,12 @@
 import React from  'react';
-import gta1 from '../../images/gta/img-1.jpg'
-import gta2 from '../../images/gta/img-2.jpg'
+import rule1 from '../../images/rule/img-1.jpg'
+import rule2 from '../../images/rule/img-2.jpg'
 import Sectiontitle from '../section-title'
 import './style.css'
 
 
 
-const Getting = () => {
+const Rule = () => {
     return(
         <div className="gta-area section-padding">
             <Sectiontitle section={'Getting There'}/>
@@ -15,21 +15,21 @@ const Getting = () => {
                     <div className="col col-lg-8 offset-lg-2 col-md-8 offset-md-2">
                         <div className="row">
                             <div className="heading col-md-12 col-sm-6">
-                                <h4>Transportation</h4>
+                                <h4>Rule</h4>
                                 <div className="gta-content">
-                                    <p>industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s</p>
+                                    <p>Rule 1</p>
                                 </div>
                                 <div className="gta-img">
-                                    <img src={gta1} alt=""/>
+                                    <img src={rule1} alt=""/>
                                 </div>
                             </div>
                             <div className="heading heading-2 col-md-12 col-sm-6">
-                                <h4>Accommodations</h4>
+                                <h4>Rule</h4>
                                 <div className="gta-content">
-                                    <p>industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s</p>
+                                    <p>Rule 2</p>
                                 </div>
                                 <div className="gta-img">
-                                <img src={gta2} alt=""/>
+                                <img src={rule2} alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -40,4 +40,4 @@ const Getting = () => {
     )
 }
 
-export default Getting;
+export default Rule;
