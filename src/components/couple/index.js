@@ -17,7 +17,7 @@ const Couple = (props) => {
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">
-                                            <h3>Petala</h3>
+                                            <h3>Milene</h3>
                                             <p>Hi</p>
                                         </div>
                                     </div>

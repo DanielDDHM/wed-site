@@ -9,8 +9,7 @@ import People from '../../components/people';
 import Location from '../../components/location';
 import Gallery from '../../components/gallery';
 import Rsvp from '../../components/rsvp';
-import Getting from '../../components/getting';
-import Gift from '../../components/gift';
+import Rule from '../../components/Rules';
 import Navbar from '../../components/Navbar'
 import Saveday from '../../components/countdown'
 import Footer from '../../components/footer'
@@ -23,7 +22,7 @@ const HomeMain = () => {
        <div>
            <Navbar/>
            <HeroMain/>
-           <Saveday saveday={'s2'}/>
+           <Saveday/>
            <Couple couple={'s2'} coupleimg1={couple1} coupleimg2={couple2}/>
            <Welcome welcome={'s2'}/>
            <Story/>
@@ -31,8 +30,7 @@ const HomeMain = () => {
            <Location/>
            <Gallery/>
            <Rsvp/>
-           <Getting/>
-           <Gift/>
+           <Rule/>
            <Footer footer={'s2'}/>
        </div>
     )
