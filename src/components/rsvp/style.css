@@ -1,5 +1,5 @@
 .rsvp-wrap {
-    background: rgba(180, 216, 232, 0.5);
+    background: #edcd46;
     padding: 70px;
     position: relative;
 }
@@ -9,7 +9,7 @@
     height: 45px;
     margin-top: 20px;
     padding-left: 10px;
-    background: #bcdae8;
+    background: white;
     opacity: 1;
     border-radius: 5px;
     border: 1px solid rgba(255,255,255,.3);
@@ -27,7 +27,7 @@ select.form-control:not([size]):not([multiple]) {
     border-radius: 5px;
     color: #333;
     font-size: 14px;
-    background:#bcdae8;
+    background:white;
     position: relative;
     border: 1px solid rgba(255,255,255,.3);
     outline: none;
@@ -48,7 +48,7 @@ select.form-control:not([size]):not([multiple]) {
     padding-top: 10px;
     border: none;
     border-radius: 5px;
-    background: #bcdae8;
+    background: white;
     border: 1px solid rgba(255,255,255,.3);
     outline: none;
 }
@@ -57,7 +57,7 @@ select.form-control:not([size]):not([multiple]) {
     background: none;
     border: none;
     padding: 10px 30px;
-    background: #bcdae8;
+    background: white;
     color: #333;
     border-radius: 5px;
     margin-top: 20px;
@@ -70,7 +70,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .contact-form button:hover {
-    background:#b2c9d3;
+    background:#edcd46;;
 }
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */

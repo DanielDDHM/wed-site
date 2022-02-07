@@ -11,7 +11,7 @@
     left: 50%;
     content: "";
     background: url(../../images/section-title.png);
-    width: 100px;
+    width: 80px;
     height: 80px;
     transform: translateX(-50%);
 }

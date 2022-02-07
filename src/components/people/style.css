@@ -84,7 +84,7 @@
     line-height: 40px;
     margin: 5px;
     z-index: -1;
-    background:#b2c9d3;
+    background:#edcd46;;
     transition: all .3s;
     border-radius: 50%;
 }
@@ -100,7 +100,7 @@
 }
 
 .social-list ul li:hover a {
-    color:#b2c9d3;
+    color:#edcd46;;
 }
 
 .groomsmen-bridesmaid-content {

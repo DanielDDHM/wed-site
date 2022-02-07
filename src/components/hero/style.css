@@ -4,10 +4,10 @@
 
 .slick-dots li button:before {
     font-size: 14px;
-    color: #b2c9d3;
+    color: #edcd46;;
 }
 .slick-dots li.slick-active button:before{
-    color: #b2c9d3;
+    color: #edcd46;;
 }
 
 .item2,.item1{
@@ -81,7 +81,7 @@
 .animated-circle {
     width: 103%;
     height: 103%;
-    background: rgba(178,201,211,.3);
+    background: #edcd46;;
     border-radius: 50%;
     position: absolute;
     left: -1.5%;
@@ -162,7 +162,7 @@
 
 .slick-prev:hover,
 .slick-next:hover {
-  background: #85aaba;
+  background: #edcd46;;
   border:none;
 }
 
