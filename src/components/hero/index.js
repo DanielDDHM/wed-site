@@ -58,6 +58,7 @@ class SimpleSlider extends Component {
                     </div>
                 </div>
           </div>
+          
         </Slider>
       );
     }
