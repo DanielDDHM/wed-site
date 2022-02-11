@@ -30,7 +30,7 @@ const Couple = (props) => {
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">
-                                            <h3>Manoel</h3>
+                                            <h3>Kibrilha</h3>
                                             <p>Hi</p>
                                         </div>
                                     </div>
