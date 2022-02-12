@@ -8,7 +8,7 @@ import './style.css'
 
 const Rule = () => {
     return(
-        <div className="gta-area section-padding">
+        <div id='rules' className="gta-area section-padding">
             <Sectiontitle section={'Getting There'}/>
             <div className="container">
                 <div className="row">

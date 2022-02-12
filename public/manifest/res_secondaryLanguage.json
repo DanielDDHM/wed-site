@@ -1,0 +1,41 @@
+{
+    "header":{
+        "home": "Anfang",
+        "couple": "Paar",
+        "history": "Geschichte",
+        "people": "Menschen",
+        "events": "Veranstaltungen",
+        "gallery": "Galerie",
+        "rvsp": "RSVP",
+        "languages": "Sprachen"
+    },
+    "home":{
+
+    },
+    "couple":{
+
+    },
+    "story":{
+
+    },
+    "people":{
+
+    },
+    "events":{
+
+    },
+    "gallery":{
+
+    },
+    "rvsp":{
+
+    },
+    "rules":{
+
+    },
+    "footer":{
+        
+    }
+}
+
+export default langDe

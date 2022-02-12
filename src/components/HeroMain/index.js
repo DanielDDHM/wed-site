@@ -29,7 +29,7 @@ class HeroMain extends Component {
                           <h2>Save Our Date</h2>
                       </div>
                       <div className="slide-text">
-                          <p>25 December 2019</p>
+                          <p>04 September 2022</p>
                       </div>
                       <Animated>
                           <div className="animated-circle"></div>
@@ -48,7 +48,7 @@ class HeroMain extends Component {
                               <h2>Save Our Date</h2>
                           </div>
                           <div className="slide-text">
-                              <p>25 December 2019</p>
+                              <p>04 September 2022</p>
                           </div>
                           <Animated>
                             <div className="animated-circle"></div>
