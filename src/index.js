@@ -6,6 +6,17 @@ import * as serviceWorker from './serviceWorker';
 import './css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+
+// GLOBAL VARIABLES
+
+window.$primaryLanguage = 'Pt-Br';
+window.$secondaryLanguage = 'De';
+window.$thirdLanguage = 'Fr';
+window.$primaryLanguageIconId = 'primary-lang-icon';
+window.$secondaryLanguageIconId = 'secondary-lang-icon';
+window.$thirdLanguageIconId = 'third-lang-icon';
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

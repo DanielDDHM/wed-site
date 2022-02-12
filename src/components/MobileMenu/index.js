@@ -36,19 +36,20 @@ export default class MobileMenu extends Component {
                         <h2><AnchorLink href='#home'>Milene & Kibrilha</AnchorLink></h2>
                     </div>
                     <ul className="responsivemenu">
-                        <li><AnchorLink href='#home'>Home</AnchorLink></li>
-                        <li><AnchorLink href='#couple'>Couple</AnchorLink></li>
-                        <li><AnchorLink href='#story'>Story</AnchorLink></li>
-                        <li><AnchorLink href='#people'>People</AnchorLink></li>
-                        <li><AnchorLink href='#event'>Events</AnchorLink></li>
-                        <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>
-                        <li><AnchorLink  href='#rsvp'>Rsvp</AnchorLink></li>
-                        <li onClick={this.setIsOpen} ><AnchorLink>Languages</AnchorLink></li>                        
+                    <li><AnchorLink href='#home'>Início</AnchorLink></li>
+                    <li><AnchorLink href='#couple'>Casal</AnchorLink></li>
+                    <li><AnchorLink href='#story'>História</AnchorLink></li>
+                    <li><AnchorLink href='#people'>Pessoas</AnchorLink></li>
+                    <li><AnchorLink href='#event'>Eventos</AnchorLink></li>
+                    <li><AnchorLink href='#gallery'>Galeria</AnchorLink></li>
+                    <li><AnchorLink href='#rsvp'>Rsvp</AnchorLink></li>
+                    <li onClick={this.setIsOpen} ><AnchorLink>Idioma</AnchorLink></li>                        
                         <Collapse isOpen={isOpen}>
                             <Card>
                                 <CardBody>
                                     <li><Link to='/home'>Portugues</Link></li>
                                     <li><Link to='/home2'>Dutch</Link></li>
+                                    <li><Link to='/home3'>French</Link></li>
                                 </CardBody>
                             </Card>
                         </Collapse>

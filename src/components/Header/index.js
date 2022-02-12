@@ -23,18 +23,18 @@ const Header = () => {
                         <div className="col-lg-9">
                             <div className="header-menu d-lg-block d-none">
                                 <ul className="mobail-menu d-flex">
-                                    <li><AnchorLink href='#home'>Home</AnchorLink></li>
-                                    <li><AnchorLink href='#couple'>Couple</AnchorLink></li>
-                                    <li><AnchorLink href='#story'>Story</AnchorLink></li>
-                                    <li><AnchorLink href='#people'>People</AnchorLink></li>
-                                    <li><AnchorLink href='#event'>Events</AnchorLink></li>
-                                    <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>
+                                    <li><AnchorLink href='#home'>Início</AnchorLink></li>
+                                    <li><AnchorLink href='#couple'>Casal</AnchorLink></li>
+                                    <li><AnchorLink href='#story'>História</AnchorLink></li>
+                                    <li><AnchorLink href='#people'>Pessoas</AnchorLink></li>
+                                    <li><AnchorLink href='#event'>Eventos</AnchorLink></li>
+                                    <li><AnchorLink href='#gallery'>Galeria</AnchorLink></li>
                                     <li><AnchorLink href='#rsvp'>Rsvp</AnchorLink></li>
-                                    <li><Link to='/'>Languages</Link>
+                                    <li><Link to='/'>Idiomas</Link>
                                         <ul className="submenu">
-                                        <li><AnchorLink href='#home'>Portugues</AnchorLink></li>
-                                        <li><AnchorLink href='#home'>Dutch</AnchorLink></li>
-                                        <li><AnchorLink href='#home'>French</AnchorLink></li>
+                                        <li><Link to='/home'>Portugues</Link></li>
+                                        <li><Link to='/home2'>Dutch</Link></li>
+                                        <li><Link to='/home3'>French</Link></li>
                                        </ul>
                                     </li>
                                 </ul>
