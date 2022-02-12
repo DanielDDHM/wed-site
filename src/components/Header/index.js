@@ -2,8 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import 'react-sticky-header/styles.css';
-import MobileMenu from '../../components/MobileMenu'
-
+import MobileMenu from '../../components/MobileMenu';
 
 
 import './style.css'
@@ -35,6 +34,7 @@ const Header = () => {
                                         <ul className="submenu">
                                         <li><AnchorLink href='#home'>Portugues</AnchorLink></li>
                                         <li><AnchorLink href='#home'>Dutch</AnchorLink></li>
+                                        <li><AnchorLink href='#home'>French</AnchorLink></li>
                                        </ul>
                                     </li>
                                 </ul>
