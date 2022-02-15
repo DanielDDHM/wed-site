@@ -5,10 +5,8 @@ import Couple from '../../components/couple';
 import SimpleSlider from '../../components/hero';
 import Story from '../../components/story';
 import Welcome from '../../components/welcome-area';
-import People from '../../components/people';
 import Location from '../../components/location';
 import Gallery from '../../components/gallery';
-import Rsvp from '../../components/rsvp';
 import Rule from '../../components/Rules';
 import Navbar from '../../components/Navbar'
 import Saveday from '../../components/countdown'
@@ -27,10 +25,8 @@ const Homepage = () => {
            <Couple coupleimg1={couple1} coupleimg2={couple2}/>
            <Welcome/>
            <Story/>
-           <People/>
            <Location/>
            <Gallery/>
-           <Rsvp/>
            <Rule/>
            <Footer />
        </div>
