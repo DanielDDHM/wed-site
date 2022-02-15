@@ -5,7 +5,6 @@ import Couple from '../../components/couple';
 import HeroMain from '../../components/HeroMain';
 import Story from '../../components/story';
 import Welcome from '../../components/welcome-area';
-import People from '../../components/people';
 import Location from '../../components/location';
 import Gallery from '../../components/gallery';
 import Rsvp from '../../components/rsvp';
@@ -26,7 +25,6 @@ const HomeMain = () => {
            <Couple couple={'s2'} coupleimg1={couple1} coupleimg2={couple2}/>
            <Welcome welcome={'s2'}/>
            <Story/>
-           <People guest={'guest-style'}/>
            <Location/>
            <Gallery/>
            <Rsvp/>

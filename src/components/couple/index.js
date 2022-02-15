@@ -6,7 +6,7 @@ const Couple = (props) => {
     return(
         <div id="couple" className={`about-wrap ${props.couple}`}>
             <div className="couple-area section-padding">
-                <Sectiontitle section={'Happy Cuple'}/>
+                <Sectiontitle section={'Feliz Casal'}/>
                 <div className="container">
                     <div className="couple-wrap">
                         <div className="row">
@@ -18,7 +18,7 @@ const Couple = (props) => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>Milene</h3>
-                                            <p>Hi</p>
+                                            <p></p>
                                         </div>
                                     </div>
                                 </div>
@@ -31,7 +31,7 @@ const Couple = (props) => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>Kibrilha</h3>
-                                            <p>Hi</p>
+                                            <p></p>
                                         </div>
                                     </div>
                                 </div>
