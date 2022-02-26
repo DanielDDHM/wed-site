@@ -33,16 +33,20 @@
     border: 1px solid #edcd46;
     border-radius: 50%;
 }
-  @media (max-width: 1199px) {
+  @media (max-width: 1499px) {
     .site-footer {
-
+      background: #edcd46;
+      height: 440px;
     }
   }
   
   @media (max-width: 991px) {
     .site-footer {
-
+      background: #edcd46;
+      height: 440px;
     }
+
+    /* TODO: Ajeitar imagem */
   }
   
   .site-footer:before {

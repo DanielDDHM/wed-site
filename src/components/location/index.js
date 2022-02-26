@@ -17,7 +17,7 @@ const Location = (props) => {
     const [modal, setModal] = useState(false);
 
     const toggle = () => setModal(!modal);
-
+    
     return (
         <div id="event" className="event-section section-padding">
             <Sectiontitle section={'Programação'} />
@@ -40,10 +40,9 @@ const Location = (props) => {
                                                     <span>03 Setembro de 2022, 3.00 PM</span>
                                                     <span>Gemeinde des Sieges/Eglise la Victoire</span>
                                                     <span>Am Mettweg 39, 79111 Freiburg im Breisgau</span>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
                                                     <Button className="btn" onClick={toggle}>Location</Button>
                                                     <Modal isOpen={modal} toggle={toggle} className={className}>
-                                                        <ModalHeader toggle={toggle}>Location</ModalHeader>
+                                                        <ModalHeader toggle={toggle}>Location 2</ModalHeader>
                                                         <ModalBody>
                                                             <div className="location-map-2">
                                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2670.7440439965376!2d7.804996815643494!3d47.98000637921114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47911b31727779c5%3A0x9772c720f9193916!2sLukaskirche!5e0!3m2!1sde!2sde!4v1644912473389!5m2!1sde!2sde" />
@@ -62,7 +61,6 @@ const Location = (props) => {
                                                     <span>03 Setembro de 2022, 8.00 PM</span>
                                                     <span>Im Tuniberghaus Tiegen</span>
                                                     <span>Im Maierbrühl 2, 79112 Freiburg im Breisgau</span>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
                                                     <Button className="btn" onClick={toggle}>Location</Button>
                                                     <Modal isOpen={modal} toggle={toggle} className={className}>
                                                         <ModalHeader toggle={toggle}>Location</ModalHeader>
@@ -94,7 +92,6 @@ const Location = (props) => {
                                                     <span>03 Setembro de 2022, 9.00 PM</span>
                                                     <span>Im Tuniberghaus Tiegen</span>
                                                     <span>Im Maierbrühl 2, 79112 Freiburg im Breisgau</span>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
                                                     <Button className="btn" onClick={toggle}>Location</Button>
                                                     <Modal isOpen={modal} toggle={toggle} className={className}>
                                                         <ModalHeader toggle={toggle}>Location</ModalHeader>

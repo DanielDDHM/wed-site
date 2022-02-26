@@ -34,6 +34,7 @@
   opacity: .3;
 }
 
+
 .item1,
 .items1{
     background: url(../../images/slider/1.jpg);
@@ -112,11 +113,13 @@
         height: 280px;
     }
     .item1,.item2{
-           height: 580px;
+           height: 480px;
     }
     .items1,.items2{
-           height: 580px;
+           height: 480px;
     }
+
+    /* TODO: Ajsutar dimensão das imagens do slide */
 }
 
 

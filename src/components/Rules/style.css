@@ -26,3 +26,12 @@
   .gta-area{
       background: rgba(178,201,211,.1);
   }
+
+  @media(max-width:767px){
+    .gta-content{
+      text-align: center;
+  }
+
+  /* TODO: AJUSTAR POSICIONAMENTO */
+}
+

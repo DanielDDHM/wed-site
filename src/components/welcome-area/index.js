@@ -13,6 +13,9 @@ const Welcome = (props) => {
 
   const toggle = () => setModal(!modal);
 
+  const toggle2 = () => setModal(!modal);
+
+
   return (
 
     <div  className={`welcome-area ${props.welcome}`}>
@@ -33,6 +36,16 @@ const Welcome = (props) => {
                                 </div>
                             </ModalBody>
                         </Modal>
+                        <div></div>
+                        <Button className="btn" onClick={toggle2}>Contato</Button>
+                        <Modal isOpen={modal} toggle={toggle2} className={className}>
+                            <ModalHeader toggle={toggle2}>Contato</ModalHeader>
+                            <ModalBody>
+                                <p>Contato Milene: +49 176 85583034</p>
+                                <p>Contato Kibrilha: +49 1575 2997750</p>
+                            </ModalBody>
+                        </Modal>
+                        {/* Terminar modal para mostrar contato */}
                     </div>
                 </div>
             </div>
