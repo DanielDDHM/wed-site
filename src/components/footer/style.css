@@ -1,5 +1,5 @@
 .site-footer {
-    background: url(../../images/slider/2.jpg);
+    background: url(../../images/slider/1.jpg);
     text-align: center;
     padding: 120px 0;
     position: relative;
@@ -7,7 +7,7 @@
   }
 
   .site-footer.s2{
-    background: url(../../images/slider/4.jpg);
+    background: url(../../images/slider/1.jpg);
   }
   
   .site-footer .text{
@@ -33,20 +33,13 @@
     border: 1px solid #edcd46;
     border-radius: 50%;
 }
-  @media (max-width: 1499px) {
-    .site-footer {
-      background: #edcd46;
-      height: 440px;
-    }
-  }
   
-  @media (max-width: 991px) {
+  @media (max-width: 1400px) {
     .site-footer {
-      background: #edcd46;
+      background: url(../../images/1-sunf.jpg);
+      background-size: cover;
       height: 440px;
     }
-
-    /* TODO: Ajeitar imagem */
   }
   
   .site-footer:before {

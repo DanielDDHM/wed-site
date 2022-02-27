@@ -7,10 +7,12 @@ welcome-area
     position: relative;
     height: 500px;
     background-attachment: fixed;
+    background-size: cover;
 }
 .welcome-area.s2{
-    background: url(../../images/slider/3.jpg);
+    background: url(../../images/slider/1.jpg);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .welcome-area:before {
@@ -78,6 +80,15 @@ button.btn:hover {
 
 
 @media (max-width:767px){
+
+    .welcome-area{
+        background:fixed;
+        background-image: url(../../images/slider/2-min.jpg);
+        background-repeat: no-repeat;
+        height: 480px;
+        background-size: cover;
+    }
+
     .welcome-content {
         padding: 60px 0 30px;
     }
@@ -92,6 +103,16 @@ button.btn:hover {
     }
     .welcome-content {
         padding: 85px 0 0;
+    }
+}
+
+@media(max-width:1200px){
+    .welcome-area{
+        background:fixed;
+        background-image: url(../../images/slider/2-min.jpg);
+        background-repeat: no-repeat;
+        height: 480px;
+        background-size: cover;
     }
 }
 

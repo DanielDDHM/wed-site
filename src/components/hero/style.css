@@ -46,12 +46,12 @@
 }
 
 .items1{
-  background: url(../../images/slider/3.jpg);
+  background: url(../../images/slider/1.jpg);
 }
 
 .item2,
 .items2{
-    background: url(../../images/slider/2.jpg);
+    background: url(../../images/slider/1.jpg);
     height: 950px;
      display: flex!important;
     justify-content: center;
@@ -61,7 +61,7 @@
 
 
 .items2{
-  background: url(../../images/slider/4.jpg);
+  background: url(../../images/slider/1.jpg);
 }
 
 .slide-content {
@@ -113,13 +113,18 @@
         height: 280px;
     }
     .item1,.item2{
-           height: 480px;
-    }
-    .items1,.items2{
-           height: 480px;
-    }
+           height: 440px;
+           background-size: cover;
+           background: url(../../images/slider/4.jpg);
+           background-repeat: no-repeat;
 
-    /* TODO: Ajsutar dimensão das imagens do slide */
+          }
+    .items1,.items2{
+           height: 440px;
+           background-size: cover;
+           background: url(../../images/slider/4.jpg);
+           background-repeat: no-repeat;
+          }
 }
 
 
