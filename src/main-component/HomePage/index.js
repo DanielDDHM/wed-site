@@ -10,7 +10,8 @@ import Gallery from '../../components/gallery';
 import Rule from '../../components/Rules';
 import Navbar from '../../components/Navbar'
 import Saveday from '../../components/countdown'
-import Footer from '../../components/footer'
+import Footer from '../../components/footer';
+import Rsvp from '../../components/rsvp';
 
 import couple1 from '../../images/couple/img-2.jpg'
 import couple2 from '../../images/couple/img-1.jpg'
@@ -28,6 +29,7 @@ const Homepage = () => {
            <Location/>
            <Gallery/>
            <Rule/>
+           <Rsvp />
            <Footer />
        </div>
     )
