@@ -4,6 +4,7 @@ import { Animated } from "react-animated-css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./style.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class SimpleSlider extends Component {
   render() {
@@ -31,6 +32,9 @@ class SimpleSlider extends Component {
               <div className="slide-text">
                 <p>03 de setembro de 2022</p>
               </div>
+              <div className="btn">
+                <AnchorLink href="#rsvp">Confirmar Presença</AnchorLink>
+              </div>
               <Animated>
                 <div className="animated-circle"></div>
               </Animated>
@@ -50,6 +54,9 @@ class SimpleSlider extends Component {
                 <div className="slide-text">
                   <p>03 de setembro de 2022</p>
                 </div>
+                <div className="btn">
+                <AnchorLink href="#rsvp">Confirmar presença</AnchorLink>
+              </div>
                 <Animated>
                   <div className="animated-circle"></div>
                 </Animated>

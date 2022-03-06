@@ -6,11 +6,11 @@ import { useForm } from "@formspree/react";
 function ContactForm() {
   const [state, handleSubmit] = useForm("mgedynbk");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <Sectiontitle section={"Convidado Confirmado"} />;
   }
   return (
     <div id="rsvp" className="rsvp-area go-rsvp-area section-padding">
-      <Sectiontitle section={"Be Our Guest"} />
+      <Sectiontitle section={"Seja Nosso Convidado"} />
       <div className="container">
         <div className="row">
           <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
