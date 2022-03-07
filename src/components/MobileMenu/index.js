@@ -60,10 +60,10 @@ export default class MobileMenu extends Component {
                     <Link to="/home">Portugues</Link>
                   </li>
                   <li>
-                    <Link to="/home2">Dutch</Link>
+                    <Link to="/home2">Deutsch</Link>
                   </li>
                   <li>
-                    <Link to="/home3">French</Link>
+                    <Link to="/home3">Français</Link>
                   </li>
                 </CardBody>
               </Card>
