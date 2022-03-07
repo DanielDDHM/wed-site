@@ -22,13 +22,13 @@ class HeroMain extends Component {
           <div className="container">
             <div className="slide-content">
               <div className="slide-subtitle">
-                <h4>WERE GETTING MARRIED</h4>
+                <h4>NOUS ALLONS NOUS MARIER</h4>
               </div>
               <div className="slide-title">
-                <h2>Save Our Date</h2>
+                <h2>Notez cette date</h2>
               </div>
               <div className="slide-text">
-                <p>03 september 2022</p>
+                <p>03 septembre 2022</p>
               </div>
               <Animated>
                 <div className="animated-circle"></div>
@@ -41,13 +41,13 @@ class HeroMain extends Component {
             <div className="container">
               <div className="slide-content">
                 <div className="slide-subtitle">
-                  <h4>WERE GETTING MARRIED</h4>
+                  <h4>NOUS ALLONS NOUS MARIER</h4>
                 </div>
                 <div className="slide-title">
-                  <h2>Save Our Date</h2>
+                  <h2>Notez cette date</h2>
                 </div>
                 <div className="slide-text">
-                  <p>03 september 2022</p>
+                  <p>03 septembre 2022</p>
                 </div>
                 <Animated>
                   <div className="animated-circle"></div>

@@ -70,7 +70,7 @@ const ContactUs = () => {
                   </div>
                   <div className="col-12 text-center">
                     <button id="submit" type="submit" className="submit">
-                      Send Invitation
+                      Confirmar
                     </button>
                   </div>
                 </div>

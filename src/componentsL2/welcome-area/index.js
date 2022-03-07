@@ -22,18 +22,18 @@ const Welcome = (props) => {
             <div className="welcome-content">
               <h2>Festeje conosco!</h2>
               <p>
-              Wir fühlen uns geehrt, Sie zu unserer Hochzeit einzuladen und zusammen mit
-                Sie wollen diesen Tag unvergesslich machen.
+                Wir fühlen uns geehrt, Sie zu unserer Hochzeit einzuladen und
+                zusammen mit Sie wollen diesen Tag unvergesslich machen.
               </p>
               <p>
-              LIEBE IST GEDULDIG. LIEBE IST GUT. NICHT NEIDEN, NICHT SEIN
+                LIEBE IST GEDULDIG. LIEBE IST GUT. NICHT NEIDEN, NICHT SEIN
                 STIEFEL, NICHT STOLZ." (1. KORINTHER 19:4)
               </p>
               <div className="btn">
                 <AnchorLink href="#rules">Regeln</AnchorLink>
               </div>
               <Button className="btn" onClick={toggle}>
-              Lokalisierung
+                Lokalisierung
               </Button>
               <Modal isOpen={modal} toggle={toggle} className={className}>
                 <ModalHeader toggle={toggle}>Lokalisierung</ModalHeader>

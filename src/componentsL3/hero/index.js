@@ -24,16 +24,16 @@ class SimpleSlider extends Component {
           <div className="container">
             <div className="slide-content">
               <div className="slide-subtitle">
-                <h4>ESTAMOS NOS CASANDO</h4>
+                <h4>NOUS ALLONS NOUS MARIER</h4>
               </div>
               <div className="slide-title">
-                <h2>Anote Esta Data</h2>
+                <h2>Notez cette date</h2>
               </div>
               <div className="slide-text">
-                <p>03 de setembro de 2022</p>
+                <p>03 septembre 2022</p>
               </div>
               <div className="btn">
-                <AnchorLink href="#rsvp">Confirmar Presença</AnchorLink>
+                <AnchorLink href="#rsvp">Confirmer la présence</AnchorLink>
               </div>
               <Animated>
                 <div className="animated-circle"></div>
@@ -46,16 +46,16 @@ class SimpleSlider extends Component {
             <div className="container">
               <div className="slide-content">
                 <div className="slide-subtitle">
-                  <h4>ESTAMOS NOS CASANDO</h4>
+                  <h4>NOUS ALLONS NOUS MARIER</h4>
                 </div>
                 <div className="slide-title">
-                  <h2>Anote Esta Data</h2>
+                  <h2>Notez cette date</h2>
                 </div>
                 <div className="slide-text">
-                  <p>03 de setembro de 2022</p>
+                  <p>03 septembre 2022</p>
                 </div>
                 <div className="btn">
-                <AnchorLink href="#rsvp">Confirmar presença</AnchorLink>
+                <AnchorLink href="#rsvp">Confirmer la présence</AnchorLink>
               </div>
                 <Animated>
                   <div className="animated-circle"></div>

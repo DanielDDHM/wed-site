@@ -29,7 +29,7 @@ const ContactUs = () => {
 
   return (
     <div id="rsvp" className="rsvp-area go-rsvp-area section-padding">
-      <Sectiontitle section={"Seja Nosso Convidado"} />
+      <Sectiontitle section={"Sois notre invité"} />
       <div className="container">
         <div className="row">
           <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
@@ -41,7 +41,7 @@ const ContactUs = () => {
                       id="name"
                       type="text"
                       name="user_name"
-                      placeholder="Seu Nome*"
+                      placeholder="Votre nom*"
                     />
                   </div>
                   <div className="col-12 col-sm-12">
@@ -49,7 +49,7 @@ const ContactUs = () => {
                       id="email"
                       type="email"
                       name="user_email"
-                      placeholder="Seu Email*"
+                      placeholder="Votre Email*"
                     />
                   </div>
                   <div className="col-12 col-sm-12">
@@ -57,20 +57,20 @@ const ContactUs = () => {
                       id="rvsp"
                       type="text"
                       name="user_convidados"
-                      placeholder="Numero de convidados*"
+                      placeholder="nombre d'invités*"
                     />
                   </div>
                   <p></p>
                   <div className="col-12 col-sm-12 text-center">
                     <select className="form-control" name="event" id="cars">
-                      <option value="Todos eventos">Todos eventos</option>
-                      <option value="cerimonia">Cerimonia</option>
-                      <option value="festa">festa</option>
+                      <option value="tous les évènements">tous les évènements</option>
+                      <option value="la cérémonie">la cérémonie</option>
+                      <option value="fête">fête</option>
                     </select>
                   </div>
                   <div className="col-12 text-center">
                     <button id="submit" type="submit" className="submit">
-                      Send Invitation
+                    Confirmer la présence
                     </button>
                   </div>
                 </div>

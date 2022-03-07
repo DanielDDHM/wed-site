@@ -20,7 +20,7 @@ const Location = (props) => {
 
   return (
     <div id="event" className="event-section section-padding">
-      <Sectiontitle section={"Programação"} />
+      <Sectiontitle section={"Programme"} />
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -36,12 +36,12 @@ const Location = (props) => {
                       </div>
                       <div className="col-lg-7 col-md-12 col-12">
                         <div className="event-text">
-                          <h3>Cerimonia Religiosa</h3>
-                          <span>03 Setembro de 2022, 3.00 PM</span>
+                          <h3>Cérémonie religieuse</h3>
+                          <span>3 septembre 2022, 15h00</span>
                           <span>Gemeinde des Sieges/Eglise la Victoire</span>
                           <span>Am Mettweg 39, 79111 Freiburg im Breisgau</span>
                           <Button className="btn" onClick={toggle2}>
-                            Location
+                            Localisation
                           </Button>
                           <Modal
                             isOpen={modal2}
@@ -49,7 +49,7 @@ const Location = (props) => {
                             className={className}
                           >
                             <ModalHeader toggle={toggle2}>
-                              Localização da Cerimonia religiosa
+                              Lieu de la cérémonie religieuse
                             </ModalHeader>
                             <ModalBody>
                               <div className="location-map-2">
@@ -65,14 +65,14 @@ const Location = (props) => {
                     <div className="row">
                       <div className="col-lg-7 col-md-12 col-12">
                         <div className="event-text event-text-2">
-                          <h3>Partida ao Salão de festas</h3>
-                          <span>03 Setembro de 2022, 8.00 PM</span>
+                          <h3>Départ vers la salle de bal</h3>
+                          <span>03 septembre 2022, 20h00</span>
                           <span>Im Tuniberghaus Tiegen</span>
                           <span>
                             Im Maierbrühl 2, 79112 Freiburg im Breisgau
                           </span>
                           <Button className="btn" onClick={toggle}>
-                            Localização
+                            Localisation
                           </Button>
                           <Modal
                             isOpen={modal}
@@ -80,7 +80,7 @@ const Location = (props) => {
                             className={className}
                           >
                             <ModalHeader toggle={toggle}>
-                              Localização do salao de festas
+                              Emplacement de la salle des fêtes
                             </ModalHeader>
                             <ModalBody>
                               <div className="location-map-2">
@@ -106,14 +106,14 @@ const Location = (props) => {
                       </div>
                       <div className="col-lg-7 col-md-12 col-12">
                         <div className="event-text">
-                          <h3>Jantar e vamos dançar</h3>
-                          <span>03 Setembro de 2022, 9.00 PM</span>
+                          <h3>Dîner et allons danser</h3>
+                          <span>03 septembre 2022, 21h00</span>
                           <span>Im Tuniberghaus Tiegen</span>
                           <span>
                             Im Maierbrühl 2, 79112 Freiburg im Breisgau
                           </span>
                           <Button className="btn" onClick={toggle}>
-                            Localização
+                          Localisation
                           </Button>
                           <Modal
                             isOpen={modal}
@@ -121,7 +121,7 @@ const Location = (props) => {
                             className={className}
                           >
                             <ModalHeader toggle={toggle}>
-                              Localização do salao de festas
+                            Emplacement de la salle des fêtes
                             </ModalHeader>
                             <ModalBody>
                               <div className="location-map">

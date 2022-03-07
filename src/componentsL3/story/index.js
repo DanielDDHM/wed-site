@@ -9,7 +9,7 @@ import "./style.css";
 const Story = () => {
   return (
     <div id="story" className="story-area section-padding">
-      <Sectiontitle section={"Nossa Historia de Amor"} />
+      <Sectiontitle section={"Notre histoire d'amour"} />
       <div className="container">
         <div className="story-wrap">
           <div className="row">
@@ -20,25 +20,26 @@ const Story = () => {
             </div>
             <div className="col-lg-6 col-md-12 col-12">
               <div className="story-text left-align-text">
-                <h3>Primeira foto Juntos</h3>
+                <h3>Première photo ensemble</h3>
                 <p>
-                  Você fala portugues? E com essa pergunta no escritório de
-                  estrangeiro começamos a conversar, nos encantamos um com o
-                  sorriso do outro, uma amizade cresceu e o nosso amor começou.
+                  Parles tu Portugais? Et avec cette question dans le bureau de
+                  étranger, nous avons commencé à parler, nous avons été
+                  enchantés par le sourire de l'autre, une amitié s'est
+                  développée et notre amour a commencé.
                 </p>
                 <p>26.09.2018</p>
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-12">
               <div className="story-text right-align-text">
-                <h3>Primeiro Encontro</h3>
+                <h3>Premier rendez-vous</h3>
                 <p>
-                  Nosso primeiro encontro foi no Europa park, eu nunca tinha
-                  ido, ele tinha ido várias vezes, me mostrou o parque todo,
-                  andamos de mãos dadas tão naturalmente, dançamos e um pombo
-                  acertou minha mochila, mas talvez isso tenha trazido sorte ao
-                  invés de azar, a sorte de encontrar um amor para toda uma
-                  vida.
+                  Notre premier rendez-vous était à Europa Park, je n'avais
+                  jamais parti, il y était allé plusieurs fois, m'a montré tout
+                  le parc, on marche main dans la main si naturellement, on
+                  danse et un pigeon frappé mon sac à dos, mais peut-être que
+                  cela a porté chance au au lieu de la malchance, la chance de
+                  trouver l'amour pour un tout la vie.
                 </p>
                 <p>27.11.2018</p>
               </div>
@@ -55,28 +56,29 @@ const Story = () => {
             </div>
             <div className="col-lg-6 col-md-12 col-12">
               <div className="story-text left-align-text">
-                <h3>Pedido</h3>
+                <h3>Demande</h3>
                 <p>
-                  Enquanto conversávamos sobre casar, compartilhei a ele os
-                  lugares em que gostaria de ser pedida em casamento, e ele me
-                  fez uma surpresa, em Paris, em frente a torre Eiffel, não
-                  desconfiei de nada e ele preparou tudo, do roteiro do dia e da
-                  minha roupa e esse dia foi inesquecível. Funfact: Enquanto
-                  andávamos por Paris vimos duas noivas, falei "se nós vermos a
-                  3ª, e sinal que a próxima serei eu". Ele riu nervosamente como
-                  nunca tinha visto e a terceira noiva fui eu mesmo hahahahaha!
+                  Alors que nous parlions de nous marier, j'ai partagé avec lui
+                  la endroits où j'aimerais qu'on me demande de me marier, et il
+                  fait une surprise, à Paris, devant la tour Eiffel, non Je ne
+                  me doutais de rien et il a tout préparé, du scénario du jour
+                  au mes vêtements et ce jour était inoubliable. Fait amusant :
+                  pendant que se promenant dans Paris on a vu deux mariées, j'ai
+                  dit "si on voit le 3ème, et signe que le prochain sera moi."
+                  Il gloussa nerveusement comme si Je ne l'avais jamais vu et la
+                  troisième mariée était moi-même hahahahaha !
                 </p>
                 <p>22.08.2020</p>
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-12">
               <div className="story-text right-align-text">
-                <h3>Noivado</h3>
+                <h3>Engagement</h3>
                 <p>
-                  Toda família ficou muito feliz com a notícia, fui acolhida
-                  pela família dele e ele pela minha, e agora no dia 03.09.2022
-                  vamos velar esse amor perante a Deus, família e amigos.
-                  Contamos com vocês!
+                  Toute la famille était très contente de la nouvelle, j'ai été
+                  bien accueilli pour sa famille et lui pour la mienne, et
+                  maintenant le 03.09.2022 Voilons cet amour devant Dieu,
+                  famille et amis. Nous comptons sur vous!
                 </p>
                 <p>03.09.2022</p>
               </div>

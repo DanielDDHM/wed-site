@@ -6,15 +6,15 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 const Rule = () => {
   return (
     <div id="rules" className="gta-area section-padding">
-      <Sectiontitle section={"Rules"} />
+      <Sectiontitle section={"Des règles"} />
       <div className="container">
         <div className="row">
           <div className="col col-lg-8 offset-lg-2 col-md-8 offset-md-2 rule-row">
             <div className="heading col-md-12 col-sm-6">
               <div className="gta-content">
                 <h3 className="gta-content-h3">
-                  Dado a pandemia, estamos seguindo os protocolos 3-G-Regel,
-                  para saber mais, clique no link a seguir.
+                Compte tenu de la pandémie, nous suivons les protocoles 3-G-Regel,
+                  Pour en savoir plus, cliquez sur le lien ci-dessous.
                 </h3>
                 <div className="col-12 text-center">
                   <div

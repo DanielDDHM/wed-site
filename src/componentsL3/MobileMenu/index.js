@@ -36,28 +36,22 @@ export default class MobileMenu extends Component {
           </div>
           <ul className="responsivemenu">
             <li>
-              <AnchorLink href="#home">Início</AnchorLink>
+              <AnchorLink href="#home">Accueil</AnchorLink>
             </li>
             <li>
-              <AnchorLink href="#couple">Casal</AnchorLink>
+              <AnchorLink href="#couple">Couple</AnchorLink>
             </li>
             <li>
-              <AnchorLink href="#story">História</AnchorLink>
+              <AnchorLink href="#story">Histoire</AnchorLink>
             </li>
             <li>
-              <AnchorLink href="#people">Pessoas</AnchorLink>
+              <AnchorLink href="#event">Événements</AnchorLink>
             </li>
             <li>
-              <AnchorLink href="#event">Eventos</AnchorLink>
-            </li>
-            <li>
-              <AnchorLink href="#gallery">Galeria</AnchorLink>
-            </li>
-            <li>
-              <AnchorLink href="#rsvp">Rsvp</AnchorLink>
+              <AnchorLink href="#gallery">Galerie</AnchorLink>
             </li>
             <li onClick={this.setIsOpen}>
-              <AnchorLink>Idioma</AnchorLink>
+              <AnchorLink>langues</AnchorLink>
             </li>
             <Collapse isOpen={isOpen}>
               <Card>

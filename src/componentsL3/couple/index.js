@@ -6,11 +6,11 @@ const Couple = (props) => {
   return (
     <div id="couple" className={`about-wrap ${props.couple}`}>
       <div className="couple-area section-padding">
-        <Sectiontitle section={"Feliz Casal"} />
+        <Sectiontitle section={"Couple heureux"} />
         <div className="gta-content">
           <h3 className="text-post-title">
-            As vezes podemos sentir desde o primeiro segundo que somos feitos um
-            para o outro
+            Parfois on peut sentir dès la première seconde qu'on ne fait plus
+            qu'un À l'autre
           </h3>
         </div>
         <div className="container">
@@ -25,14 +25,15 @@ const Couple = (props) => {
                     <div className="couple-content">
                       <h3>Milene</h3>
                       <p>
-                        Sou a Milene, também conhecida como Pétala, Baiana, moro
-                        na Alemanha a mais ou menos 5 anos e em Freiburg
-                        encontrei o amor da minha vida. Desde a primeira vez que
-                        o vi senti que foi Deus que o colocou na minha vida,
-                        quando ele sorriu para mim foi como se o sol brilhasse e
-                        Deus sorrise para mim, então tudo fez sentido. Meu amor,
-                        você me faz todos os dias feliz, estar com você é
-                        maravilhoso, sou muito grata por te ter em minha vida.
+                        Je suis Milene, aussi connue sous le nom de Petala,
+                        Baiana, je vis en Allemagne depuis environ 5 ans et à
+                        Fribourg J'ai trouvé l'amour de ma vie. depuis la
+                        première fois Je l'ai vu, j'ai senti que c'était Dieu
+                        qui l'avait mis dans ma vie, quand il m'a souri, c'était
+                        comme si le soleil brillait et Dieu me sourit, alors
+                        tout a pris un sens. Mon amour, tu me rends heureux tous
+                        les jours, être avec toi c'est merveilleux, je suis
+                        tellement reconnaissant de vous avoir dans ma vie.
                       </p>
                     </div>
                   </div>
@@ -47,15 +48,16 @@ const Couple = (props) => {
                     <div className="couple-content">
                       <h3>Kibrilha</h3>
                       <p>
-                        Sou Kibrilha, vivo na Alemanha a 8 anos, temente a Deus,
-                        resiliente, responsável e um tanto perfeccionista. No
-                        dia 26.09.2018 conheci a mulher que conquistou o meu
-                        coração com o seu sorriso contagiante, carácter, linda,
-                        carinho e respeito. Com a ajuda de Deus honro ela ontem
-                        como namorada, hoje como noiva e agora minha mulher.
-                        Minha Girassol, te amo muito, você me fez de noivo, em
-                        breve esposo e no futuro pai dos seus filhos. Sou o
-                        homem mais feliz por te ter na minha vida.
+                        Je m'appelle Kibrilha, je vis en Allemagne depuis 8 ans,
+                        craignant Dieu, résilient, responsable et quelque peu
+                        perfectionniste. Au 26.09.2018 J'ai rencontré la femme
+                        qui a gagné mon coeur avec son sourire contagieux,
+                        caractère, beau, tendresse et respect. Avec l'aide de
+                        Dieu je l'honore hier en tant que petite amie,
+                        aujourd'hui en tant que mariée et maintenant ma femme.
+                        Mon Tournesol, je t'aime tant, tu as fait de moi un
+                        époux, en futur époux et futur père de ses enfants. je
+                        suis l'homme le plus heureux de t'avoir dans ma vie.
                       </p>
                     </div>
                   </div>
