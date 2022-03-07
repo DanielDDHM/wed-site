@@ -45,16 +45,10 @@ export default class MobileMenu extends Component {
               <AnchorLink href="#story">História</AnchorLink>
             </li>
             <li>
-              <AnchorLink href="#people">Pessoas</AnchorLink>
-            </li>
-            <li>
               <AnchorLink href="#event">Eventos</AnchorLink>
             </li>
             <li>
               <AnchorLink href="#gallery">Galeria</AnchorLink>
-            </li>
-            <li>
-              <AnchorLink href="#rsvp">Rsvp</AnchorLink>
             </li>
             <li onClick={this.setIsOpen}>
               <AnchorLink>Idioma</AnchorLink>
