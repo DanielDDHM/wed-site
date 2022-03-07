@@ -37,7 +37,7 @@ const Location = (props) => {
                       <div className="col-lg-7 col-md-12 col-12">
                         <div className="event-text">
                           <h3>Cerimonia Religiosa</h3>
-                          <span>03 Setembro de 2022, 3.00 PM</span>
+                          <span>03 Setembro de 2022, 3:00 PM</span>
                           <span>Gemeinde des Sieges/Eglise la Victoire</span>
                           <span>Am Mettweg 39, 79111 Freiburg im Breisgau</span>
                           <Button className="btn" onClick={toggle2}>
@@ -66,7 +66,7 @@ const Location = (props) => {
                       <div className="col-lg-7 col-md-12 col-12">
                         <div className="event-text event-text-2">
                           <h3>Partida ao Salão de festas</h3>
-                          <span>03 Setembro de 2022, 8.00 PM</span>
+                          <span>03 Setembro de 2022, 7:00 PM</span>
                           <span>Im Tuniberghaus Tiegen</span>
                           <span>
                             Im Maierbrühl 2, 79112 Freiburg im Breisgau
@@ -107,7 +107,7 @@ const Location = (props) => {
                       <div className="col-lg-7 col-md-12 col-12">
                         <div className="event-text">
                           <h3>Jantar e vamos dançar</h3>
-                          <span>03 Setembro de 2022, 9.00 PM</span>
+                          <span>03 Setembro de 2022, 9:00 PM</span>
                           <span>Im Tuniberghaus Tiegen</span>
                           <span>
                             Im Maierbrühl 2, 79112 Freiburg im Breisgau

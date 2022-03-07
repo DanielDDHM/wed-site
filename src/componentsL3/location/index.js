@@ -66,7 +66,7 @@ const Location = (props) => {
                       <div className="col-lg-7 col-md-12 col-12">
                         <div className="event-text event-text-2">
                           <h3>Départ vers la salle de bal</h3>
-                          <span>03 septembre 2022, 20h00</span>
+                          <span>03 septembre 2022, 19h00</span>
                           <span>Im Tuniberghaus Tiegen</span>
                           <span>
                             Im Maierbrühl 2, 79112 Freiburg im Breisgau
