@@ -13,8 +13,8 @@ const Rule = () => {
             <div className="heading col-md-12 col-sm-6">
               <div className="gta-content">
                 <h3 className="gta-content-h3">
-                  Dado a pandemia, estamos seguindo os protocolos 3-G-Regel,
-                  para saber mais, clique no link a seguir.
+                  Angesichts der Pandemie folgen wir den 3-G-Regel-Protokollen,
+                  Um mehr zu erfahren, klicken Sie auf den unten stehenden Link.
                 </h3>
                 <div className="col-12 text-center">
                   <div

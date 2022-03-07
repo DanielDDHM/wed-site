@@ -18,7 +18,7 @@ const ContactUs = () => {
       )
       .then(
         (result) => {
-          alert("obrigado, sua presença foi confirmada");
+          alert("Danke, Ihre Anwesenheit wurde bestätigt");
           console.log(result.text);
         },
         (error) => {
@@ -29,7 +29,7 @@ const ContactUs = () => {
 
   return (
     <div id="rsvp" className="rsvp-area go-rsvp-area section-padding">
-      <Sectiontitle section={"Seja Nosso Convidado"} />
+      <Sectiontitle section={"Sei unser Gast"} />
       <div className="container">
         <div className="row">
           <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
@@ -41,7 +41,7 @@ const ContactUs = () => {
                       id="name"
                       type="text"
                       name="user_name"
-                      placeholder="Seu Nome*"
+                      placeholder="Dein Name*"
                     />
                   </div>
                   <div className="col-12 col-sm-12">
@@ -49,7 +49,7 @@ const ContactUs = () => {
                       id="email"
                       type="email"
                       name="user_email"
-                      placeholder="Seu Email*"
+                      placeholder="Deine E-Mail*"
                     />
                   </div>
                   <div className="col-12 col-sm-12">
@@ -57,20 +57,22 @@ const ContactUs = () => {
                       id="rvsp"
                       type="text"
                       name="user_convidados"
-                      placeholder="Numero de convidados*"
+                      placeholder="Anzahl der Gäste*"
                     />
                   </div>
                   <p></p>
                   <div className="col-12 col-sm-12 text-center">
                     <select className="form-control" name="event" id="cars">
-                      <option value="Todos eventos">Todos eventos</option>
-                      <option value="cerimonia">Cerimonia</option>
-                      <option value="festa">festa</option>
+                      <option value="alle Veranstaltungen">
+                        alle Veranstaltungen
+                      </option>
+                      <option value="Zeremonie">Zeremonie</option>
+                      <option value="Gruppe">Gruppe</option>
                     </select>
                   </div>
                   <div className="col-12 text-center">
                     <button id="submit" type="submit" className="submit">
-                      Send Invitation
+                      Anwesenheit bestätigen
                     </button>
                   </div>
                 </div>

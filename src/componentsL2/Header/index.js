@@ -23,22 +23,22 @@ const Header = () => {
               <div className="header-menu d-lg-block d-none">
                 <ul className="mobail-menu d-flex">
                   <li>
-                    <AnchorLink href="#home">Início</AnchorLink>
+                    <AnchorLink href="#home">Start</AnchorLink>
                   </li>
                   <li>
-                    <AnchorLink href="#couple">Casal</AnchorLink>
+                    <AnchorLink href="#couple">Paar</AnchorLink>
                   </li>
                   <li>
-                    <AnchorLink href="#story">História</AnchorLink>
+                    <AnchorLink href="#story">Geschichte</AnchorLink>
                   </li>
                   <li>
-                    <AnchorLink href="#event">Eventos</AnchorLink>
+                    <AnchorLink href="#event">Veranstaltungen</AnchorLink>
                   </li>
                   <li>
-                    <AnchorLink href="#gallery">Galeria</AnchorLink>
+                    <AnchorLink href="#gallery">Galerie</AnchorLink>
                   </li>
                   <li>
-                    <Link to="/">Idiomas</Link>
+                    <Link to="/">Sprachen</Link>
                     <ul className="submenu">
                       <li>
                         <Link to="/home">Portugues</Link>

@@ -19,7 +19,7 @@
       crossorigin="anonymous"
     />
 
-    <!-- <script>
+    <script>
     if (document.addEventListener) {
     document.addEventListener("contextmenu", function (e) {
       e.preventDefault();
@@ -50,33 +50,9 @@
     }
   };
 
-  </script> -->
+  </script>
 
-    <script>
-      export const ContactUs = () => {
-        const form = useRef();
 
-        const sendEmail = (e) => {
-          e.preventDefault();
-
-          emailjs
-            .sendForm(
-              "service_ompk8ns",
-              "template_cd9jk37",
-              form.current,
-              "O-yqbmXNmWRVcGZRT"
-            )
-            .then(
-              (result) => {
-                console.log(result.text);
-              },
-              (error) => {
-                console.log(error.text);
-              }
-            );
-        };
-      };
-    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
