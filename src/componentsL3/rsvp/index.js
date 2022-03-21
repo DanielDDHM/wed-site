@@ -11,10 +11,10 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_ompk8ns",
+        "service_7kwtnro",
         "template_uiyacu9",
         form.current,
-        "O-yqbmXNmWRVcGZRT"
+        "FPcumI_xnuL-jmvQp"
       )
       .then(
         (result) => {
@@ -63,14 +63,16 @@ const ContactUs = () => {
                   <p></p>
                   <div className="col-12 col-sm-12 text-center">
                     <select className="form-control" name="event" id="cars">
-                      <option value="tous les évènements">tous les évènements</option>
+                      <option value="tous les évènements">
+                        tous les évènements
+                      </option>
                       <option value="la cérémonie">la cérémonie</option>
                       <option value="fête">fête</option>
                     </select>
                   </div>
                   <div className="col-12 text-center">
                     <button id="submit" type="submit" className="submit">
-                    Confirmer la présence
+                      Confirmer la présence
                     </button>
                   </div>
                 </div>
